@@ -7,7 +7,7 @@ terraform {
 }
 
 module "app_config" {
-  source = "github.com/YOUR_USERNAME/infra-modules//modules/app-config?ref=v1.0.0"
+  source = "github.com/Lexxick/infra-modules//modules/app-config?ref=v1.0.0"
 
   environment   = var.environment
   app_version   = var.app_version
