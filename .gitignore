@@ -4,4 +4,3 @@
 .terraform.lock.hcl
 **/output/
 .DS_Store
-*.tfvars
